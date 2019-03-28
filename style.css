@@ -1,0 +1,52 @@
+#main {
+  margin: 10px;
+  font-family: Verdana;
+  background-color: #add8e6;
+  display: grid;
+  justify-items: center;
+}
+#title {
+  display: grid;
+  justify-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+p1 {
+  font-size: 15px;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+figcaption {
+  text-align: center;
+}
+#tribute-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+}
+p2 {
+  font-size: 17px;
+  font-weight: bold; 
+}
+ul {
+  text-align: left;
+  grid-column: 2 / 3;
+  padding-bottom: 5px;
+  }
+li {
+  text-align: justify;
+  padding-top: 10px;
+  }
+#quotation {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 1%;
+}
+.link {
+  font-size: 19px;
+  font-weight: bold;
+  padding-bottom: 2%
+}
